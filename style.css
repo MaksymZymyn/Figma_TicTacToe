@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("http://fonts.googleapis.com/css?family=Roboto");
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 477px;
+    height: 619px;
+    background: #FFFFFF;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 208px;
+    height: 208px;
+    margin-top: 37px;
+    margin-left: 134px;
+}
+
+.row, .anotherRow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 208px;
+    height: 64px;
+}
+
+.row {
+    margin-bottom: 8px;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 64px;
+    height: 64px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.x, .o {display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 56px;
+        font-size: 48px;
+}
+
+.x {
+    width: 31px;
+    color: #00C944;
+    margin-left: 17px;
+    margin-right: 16px;
+}
+
+.two, .five, .eight {
+    margin: 0 8px 0 8px;
+}
+
+.o {
+    width: 34px;
+    color: #C90000;
+}
+
+.winner {
+    height: 42px;
+    width: 194px;
+    font-size: 36px;
+    letter-spacing: -1.45px;
+    word-spacing: -0.85px;
+    color: #000000;
+    margin-top: 16px;
+    margin-left: 141px;   
+}
+
+.innerX {
+    color: #00C944; 
+}
+
+.innerO {
+    color: #C90000;
+}
+
+.round {
+    height: 42px;
+    width: 242px;
+    font-size: 36px;
+    letter-spacing: -1.45px;
+    word-spacing: -0.85px;
+    color: #0068C9;
+    margin-top: 16px;
+    margin-left: 117px;   
+}
+
+
+.btnClose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    width: 208px;
+    background: #CCE7FF;
+    border: 4px solid #0068C9;
+    border-radius: 10px;
+    font-size: 36px;
+    color: #0068C9;
+    margin-top: 29px;
+    margin-left: 134px; 
+}
